@@ -33,6 +33,7 @@ body {
 }
 
 body {
+
   font-size: 16px;
   font-weight: 400;
 }
@@ -46,7 +47,7 @@ h2, h3, h4 {
   color: var(--Dark-Grayish-Blue);
   width: 90%;
   margin: 1rem auto;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 h2 {
@@ -224,11 +225,10 @@ footer .social-links li {
   html, body {
     font-size: 20px;
   }
-  
   body{
     background: url(../images/bg-header-desktop.png);
-    background-size: contain;
-    background-repeat: no-repeat;
+
+
   }
 
   p {
@@ -342,6 +342,10 @@ footer .social-links li {
     width: 55%;
   }
 
+  .workflow-list li{
+    margin-left: 0.5rem;
+  }
+
   .feature-3,
   .brands {
     grid-column: 3/11;
@@ -354,7 +358,7 @@ footer .social-links li {
   }
 
   footer .footer-logo {
-    grid-column: 1/4;
+    grid-column: 1/3;
   }
 
   .footer-logo img {
@@ -362,8 +366,14 @@ footer .social-links li {
   }
 
   .common-links {
-    grid-column: 5/10;
+    grid-column: 4/10;
     width: 100%;
+  }
+  .common-links a {
+    font-size: 1rem;
+  }
+  .common-links li{
+    display: inline-block;
   }
 
   .social-links {
